@@ -17,22 +17,22 @@ const HomeBanner = () => {
 
             <div className={style.contentBottom}>
                 <div className={style.item}>
-                    <Image src="/images/avion.svg" width={50} height={50} alt='Lo mejor' />
+                    <Image src="/images/icons/tick.svg" width={30} height={30} alt='Lo mejor' />
                     <p>Las mejores actividades</p>
                 </div>
 
                 <div className={style.item}>
-                    <Image src="/images/avion.svg" width={50} height={50} alt='Lo mejor' />
+                    <Image src="/images/icons/rueda.svg" width={30} height={30} alt='Lo mejor' />
                     <p>Atención al cliente 24/7</p>
                 </div>
 
                 <div className={style.item}>
-                    <Image src="/images/avion.svg" width={50} height={50} alt='Lo mejor' />
+                    <Image src="/images/icons/cart.svg" width={30} height={30} alt='Lo mejor' />
                     <p>Miles de opiniones</p>
                 </div>
 
                 <div className={style.item}>
-                    <Image src="/images/avion.svg" width={50} height={50} alt='Lo mejor' />
+                    <Image src="/images/icons/prive.svg" width={30} height={30} alt='Lo mejor' />
                     <p>Precios finales</p>
                 </div>
             </div>

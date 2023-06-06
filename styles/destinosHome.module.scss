@@ -18,6 +18,15 @@
 
     .destino {
         width: 30%;
+
+        @media(max-width:900px) {
+            width: 45%;
+        }
+
+        @media (max-width: 600px) {
+            width: 90%;
+        }
+
         height: 40%;
         border-radius: 10px;
         position: relative;

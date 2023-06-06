@@ -1,0 +1,36 @@
+.footer_container {
+    grid-area: footer;
+    background: #27374D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    flex-wrap: wrap;
+
+    .link_box {
+        width: 33.33%;
+        text-align: center;
+
+        h3 {
+            font-size: 1.8em;
+            color: white;
+        }
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 1rem 0 0 0;
+            padding: 10px 0;
+
+            .footer_link {
+                color: white;
+                text-decoration: none;
+            }
+
+        }
+    }
+
+
+}

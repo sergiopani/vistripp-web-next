@@ -1,25 +1,61 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
     grid-area: header;
-    background: #98EECC;
     display: flex;
+    background: darken(#98EECC, 30);
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
 
-    a {
-        text-decoration: none;
-        color: #000;
-        font-weight: bold;
-        font-size: 1.2rem;
-        color: #000;
+    .nav {
+        @media(max-width: 900px) {
+            display: none;
+        }
 
 
     }
+
+    .nav_movile {
+        display: none;
+
+        @media(max-width: 900px) {
+            display: block;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 1.2rem;
+
+
+
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+
 
     li {
         list-style: none;
         display: inline-block;
         margin: 0 1rem;
+        cursor: pointer;
+    }
+
+
+    .arrow {
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: bold;
+        margin-right: 1rem;
+
     }
 
 

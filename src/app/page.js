@@ -4,6 +4,7 @@ import Header from 'components/Header';
 import HomeBanner from '../../components/HomeBanner';
 import DestinosHome from '../../components/DestinosHome';
 import Actividades from '../../components/Actividades';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <Header />
       <HomeBanner />
       <DestinosHome />
-      {/* <Actividades /> */}
+      <Actividades />
+      <Footer />
     </>
   );
 }

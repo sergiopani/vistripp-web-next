@@ -3,27 +3,49 @@
 import style from '../styles/header.module.scss';
 
 import Image from 'next/image';
-
+import Link from 'next/link';
 const Header = () => {
     return (
         <header className={style.header}>
             <div className={style.logo}>
-                {/* <Image src='/images/logo.jpeg'
-                    width={52}
-                    alt='logo'
-                    height={180} /> */}
+                <h1 style={{ color: 'white' }}>Vistripp</h1>
             </div>
+            <div className={style.nav_movile}>
 
+                <Image src="/images/icons/menu_movile.svg"
+                    width={30}
+                    height={40} alt="flag" />
+
+            </div>
             <nav className={style.nav}>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <Link href="/idiomas" className={style.idiomas}>
+                            Idioma
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">About Us</a>
+
+                        <Link href="/cuenta" className={style.idiomas}>
+                            Cuenta
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Contact Us</a>
+
+                        <Image src="/images/icons/moneda.svg"
+                            width={30}
+                            height={40} alt="flag" />
+                    </li>
+                    <li>
+
+                        <Image src="/images/icons/question.svg"
+                            width={30}
+                            height={40} alt="flag" />
+                    </li>
+                    <li>
+                        <Image src="/images/icons/cart.svg"
+                            width={30}
+                            height={40} alt="flag" />
                     </li>
                 </ul>
             </nav>
