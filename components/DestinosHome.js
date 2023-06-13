@@ -55,6 +55,7 @@ const DestinosHome = () => {
                     destinos.map(destino => {
                         return (
                             <div key={destino.id} className={style.destino}>
+                                <div className={style.destino_overlay}></div>
 
                                 <Image src={destino.imagen} alt={destino.nombre}
                                     className={style.demo_image}

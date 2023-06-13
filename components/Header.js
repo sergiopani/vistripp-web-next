@@ -5,23 +5,65 @@ import style from '../styles/header.module.scss';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRef, useState } from 'react';
 
 const Header = () => {
+
+    const [menuVisible, setMenuVisible] = useState(false);
+
+    const movileMenu = useRef(null)
+
+
     const handleClick = () => {
-        console.log('hola a toos');
+        setMenuVisible(!menuVisible);
+
     }
     return (
         <header className={style.header}>
             <div className={style.logo}>
                 <h1 style={{ color: 'white' }}>Vistripp</h1>
             </div>
-            <div className={`${style.nav_movile} hidden`}>
+            <div className={style.nav_movile} onClick={handleClick}>
 
                 <Image src="/images/icons/menu_movile.svg"
                     width={30}
                     height={40} alt="flag" onClick={handleClick} />
 
             </div>
+
+            <nav className={`${style.nav_movile_menu} ${menuVisible ? '' : style.hidden
+                }`} ref={movileMenu}>
+                <ul>
+                    <li>
+                        <Link href="/idiomas" className={style.idiomas}>
+                            Idioma
+                        </Link>
+                    </li>
+                    <li>
+
+                        <Link href="/cuenta" className={style.idiomas}>
+                            Cuenta
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/cuenta" className={style.idiomas}>
+                            Moneda
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/cuenta" className={style.idiomas}>
+                            Ayuda
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/cuenta" className={style.idiomas}>
+                            Carrito
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
+
+
             <nav className={style.nav}>
                 <ul>
                     <li>
