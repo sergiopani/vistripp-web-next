@@ -1,6 +1,7 @@
-
+'use client'
 import Image from 'next/image';
 import style from '../styles/actividadesHome.module.scss';
+import Link from 'next/link';
 
 
 const actividades = [
@@ -44,7 +45,11 @@ const actividades = [
 
     },
 ];
+
+
 const Actividades = () => {
+
+
     return (
         <>
             <section className={style.actividades_container}>
@@ -52,7 +57,7 @@ const Actividades = () => {
                 {
                     actividades.map(actividad => {
                         return (
-                            <div key={actividad.id} className={style.actividad}>
+                            <Link href={`/actividades/${actividad.id}`} key={actividad.id} className={style.actividad} >
                                 <Image src={actividad.imagen} alt={actividad.nombre}
                                     className={style.demo_image}
                                     width={500}
@@ -63,7 +68,7 @@ const Actividades = () => {
                                     <p>{actividad.descripcion}</p>
                                     <button>Ver más</button>
                                 </div>
-                            </div>
+                            </Link>
                         );
                     })
                 }

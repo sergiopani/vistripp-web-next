@@ -24,10 +24,15 @@ body {
         "footer footer footer";
 
 
+    @media (max-width:600px) {
+        grid-template-rows: 72px 500px auto auto 1fr;
+
+    }
 
     //fuentes
     font-size: 14px;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'SF Pro Display',
+    sans-serif;
 
 
 
