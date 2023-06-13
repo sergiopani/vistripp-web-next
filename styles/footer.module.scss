@@ -15,6 +15,13 @@
             font-size: 1.8em;
             color: white;
         }
+
+        @media(max-width: 600px) {
+
+            width: 100%;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
     }
 
     ul {
@@ -27,10 +34,15 @@
             .footer_link {
                 color: white;
                 text-decoration: none;
+
+
             }
+
 
         }
     }
+
+
 
 
 }
