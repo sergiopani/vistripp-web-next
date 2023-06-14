@@ -21,7 +21,7 @@ const Header = () => {
     return (
         <header className={style.header}>
             <div className={style.logo}>
-                <Link href="/" style={{ color: 'white', fontSize: '2rem' }}>Vistripp</Link>
+                <Link href="/" style={{ color: 'white', fontSize: '1.8rem' }}>Vistripp</Link>
             </div>
             <div className={style.nav_movile} onClick={handleClick}>
 
