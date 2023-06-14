@@ -1,0 +1,30 @@
+.actividad_container {
+    top: 6rem;
+    position: absolute;
+    width: 100%;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    //hacer que ocupe dos rows del gid
+
+    .actividad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 100%;
+        height: 100%;
+
+        border-radius: 1rem;
+        padding: 1rem;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+    }
+}

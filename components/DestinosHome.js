@@ -4,40 +4,40 @@ import Image from 'next/image';
 const destinos = [
     {
         id: 1,
-        nombre: 'Destino 1',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        nombre: 'Madrid',
+        descripcion: '',
         imagen: '/images/destinos/1.jpeg'
     },
     {
         id: 2,
-        nombre: 'Destino 2',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        nombre: 'Barcelona',
+        descripcion: '',
         imagen: '/images/destinos/2.jpeg'
 
     },
     {
         id: 3,
-        nombre: 'Destino 3',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        nombre: 'Bilbao',
+        descripcion: '',
         imagen: '/images/destinos/3.jpeg'
     },
     {
         id: 4,
-        nombre: 'Destino 4',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        nombre: 'Valencia',
+        descripcion: '',
         imagen: '/images/destinos/4.jpeg'
 
     },
     {
         id: 5,
-        nombre: 'Destino 5',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        nombre: 'Sevilla',
+        descripcion: '',
         imagen: '/images/destinos/5.jpeg'
     },
     {
         id: 6,
-        nombre: 'Destino 6',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        nombre: 'Sevilla',
+        descripcion: '',
         imagen: '/images/destinos/6.jpeg'
 
     },
@@ -63,7 +63,7 @@ const DestinosHome = () => {
                                     height={500} />
                                 <div className={style.destino_content}>
                                     <h3>{destino.nombre}</h3>
-                                    <p>{destino.descripcion}</p>
+
                                     <button>Ver más</button>
                                 </div>
                             </div>

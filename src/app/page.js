@@ -6,14 +6,21 @@ import DestinosHome from '../../components/DestinosHome';
 import Actividades from '../../components/Actividades';
 import Footer from '../../components/Footer';
 
+
 export default function Home() {
+
+
   return (
     <>
 
       <HomeBanner />
       <DestinosHome />
       <Actividades />
-
+      <Footer />
     </>
   );
 }
+
+
+
+
