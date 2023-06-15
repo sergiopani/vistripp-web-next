@@ -9,7 +9,7 @@ const Actividad = async () => {
     //cojer el id de la url
 
     const { actividad } = useParams();
-
+    console.log(actividad)
 
     const actividades = await getAllActividades(actividad);
 

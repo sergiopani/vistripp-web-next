@@ -23,14 +23,14 @@ const destinos = [
     },
     {
         id: 4,
-        nombre: 'Valencia',
+        nombre: 'Menorca',
         descripcion: '',
         imagen: '/images/destinos/4.jpeg'
 
     },
     {
         id: 5,
-        nombre: 'Sevilla',
+        nombre: 'Bilbao',
         descripcion: '',
         imagen: '/images/destinos/5.jpeg'
     },

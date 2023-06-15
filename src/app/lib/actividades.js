@@ -17,6 +17,107 @@ export const actividades = [
                 "descripcion": "Nos trasladamos ahora al Puerto Olímpico, una de las principales áreas de competición acuática. Aquí se llevaron a cabo las competiciones de vela y remo. Disfruta de la vista al mar y admira los barcos que participaron en estas disciplinas."
             }
         ],
+        "imagen": "/images/actividades/1.png"
+    },
+    {
+        "id": 2,
+        "title": "VISITA GUIADA BRAVAS DE MADRID",
+        "descripcion": "en esta visita guiada por algunos de los lugares en Madrid donde podrás disfrutar de las mejores bravas de la ciudad. Las patatas bravas son un plato tradicional español que consiste en papas fritas acompañadas de una salsa picante y deliciosa. Prepárate para disfrutar de sabores intensos y una experiencia culinaria inolvidable.",
+        "puntos": [
+            {
+                "title": "Casa Brava",
+                "descipcion": "Comenzamos nuestra visita en Casa Brava, un clásico de Madrid que se especializa en patatas bravas. Este lugar es famoso por su salsa secreta y su variedad de salsas para acompañar las patatas. Puedes disfrutar de las bravas tradicionales o probar diferentes versiones con alioli, salsa de queso u otras opciones."
+            },
+            {
+                "title": "Docamar",
+                "descripcion": "Nuestra siguiente parada es Docamar, otro local emblemático de la ciudad. Sus patatas bravas son famosas por su textura crujiente por fuera y tierna por dentro. La salsa picante es sabrosa y equilibrada, lo que hace que este lugar sea muy popular entre los amantes de las bravas."
+            },
+            {
+                "title": "La Ardosa",
+                "descripcion": "Continuamos nuestro recorrido en La Ardosa, un bar histórico que ha estado sirviendo patatas bravas desde hace décadas. Aquí podrás disfrutar de unas bravas clásicas y auténticas en un ambiente tradicional y acogedor. No olvides acompañarlas con una cerveza bien fría."
+            }
+        ],
         "imagen": "/images/actividades/2.png"
+    },
+    {
+        "id": 3,
+        "title": "VISITA GUIADA SAN FERMINES PAMPLONA ",
+        "descripcion": "¡Bienvenido a la visita guiada de los Sanfermines en Pamplona! Prepárate para sumergirte en una de las festividades más emblemáticas de España. Los Sanfermines son conocidos en todo el mundo por los encierros de toros y la animada fiesta que los rodea. Te guiaré a través de los principales puntos de interés y tradiciones de esta festividad.",
+        "puntos": [
+            {
+                "title": "Plaza del Ayuntamiento",
+                "descipcion": "Comenzamos nuestra visita en la Plaza del Ayuntamiento, el epicentro de los Sanfermines. Aquí es donde se lanzan los tradicionales cohetes que marcan el inicio y el final de las fiestas. Podrás admirar la belleza de la plaza y empaparte del ambiente festivo que se vive durante esta época del año."
+            },
+            {
+                "title": "Encierro de los toros",
+                "descripcion": "Uno de los momentos más destacados de los Sanfermines es el encierro de los toros. Cada mañana, a las 8:00 a.m., se suelta un grupo de toros que corren por las calles de Pamplona. Podrás seguir la ruta del encierro desde la Plaza del Ayuntamiento hasta la Plaza de Toros. Recuerda que el encierro es una actividad peligrosa y se recomienda observarlo desde lugares seguros."
+            },
+            {
+                "title": "Plaza de Toros de Pamplona",
+                "descripcion": " La Plaza de Toros de Pamplona es otro lugar emblemático de los Sanfermines. Es aquí donde los toros que corren en el encierro son lidiados por toreros durante las corridas. Incluso si no eres un fanático de las corridas de toros, puedes visitar la plaza para conocer su historia y arquitectura."
+            }
+        ],
+        "imagen": "/images/actividades/3.png"
+    },
+    {
+        "id": 4,
+        "title": "VISITA GUIADA FLAMENCO SEVILLA",
+        "descripcion": "Bienvenido a la visita guiada de las noches de flamenco en Triana! Triana es un barrio emblemático de Sevilla, conocido por su rica historia y su conexión con el flamenco. Durante esta visita, exploraremos los lugares más destacados donde podrás disfrutar de auténticas noches de flamenco en Triana.",
+        "puntos": [
+            {
+                "title": "Casa Anselma",
+                "descipcion": "Comenzamos nuestra visita en Casa Anselma, uno de los lugares más populares para disfrutar de flamenco en Triana. Este tablao flamenco ofrece actuaciones en vivo todas las noches. Aquí podrás sumergirte en el ambiente íntimo y apasionado del flamenco mientras disfrutas de baile, cante y guitarra en directo."
+            },
+            {
+                "title": "Calle Betis",
+                "descripcion": "Nuestra siguiente parada nos lleva a la pintoresca Calle Betis, situada a orillas del río Guadalquivir. Esta calle cuenta con una gran variedad de bares y restaurantes donde podrás disfrutar de música flamenca en vivo. Muchos establecimientos ofrecen espectáculos improvisados donde los artistas locales se reúnen para tocar y bailar flamenco."
+            },
+            {
+                "title": "Peña Cultural Flamenca Torres Macarena",
+                "descripcion": "Continuamos nuestra visita en la Peña Cultural Flamenca Torres Macarena, una institución que promueve y preserva el arte del flamenco. Aquí podrás disfrutar de espectáculos de flamenco tradicional en un ambiente auténtico y acogedor. La peña organiza regularmente actuaciones de reconocidos artistas flamencos y también brinda la oportunidad a jóvenes talentos locales de mostrar su arte."
+            }
+        ],
+        "imagen": "/images/actividades/4.png"
+    },
+    {
+        "id": 5,
+        "title": "VISITA GUIADA EN PLAYAS DE VALENCIA",
+        "descripcion": "¡Bienvenido a la visita guiada por las playas de Valencia! La ciudad de Valencia cuenta con hermosas playas que ofrecen un ambiente perfecto para relajarse, disfrutar del sol y darse un baño refrescante en el mar Mediterráneo. Acompáñame mientras exploramos algunas de las playas más populares de la zona.",
+        "puntos": [
+            {
+                "title": "Playa de la Malvarrosa",
+                "descipcion": "Comenzamos nuestra visita en la Playa de la Malvarrosa, una de las playas más emblemáticas de Valencia. Esta amplia playa de arena dorada se extiende a lo largo de varios kilómetros y cuenta con una gran variedad de servicios, como restaurantes, bares y alquiler de hamacas. Aquí podrás disfrutar de un agradable paseo por el paseo marítimo, tomar el sol o darte un chapuzón en el mar."
+            },
+            {
+                "title": "Playa de las Arenas",
+                "descripcion": "Continuamos nuestra visita en la Playa de las Arenas, que se encuentra justo al lado de la Playa de la Malvarrosa. Esta playa también cuenta con arena fina y aguas tranquilas, perfectas para nadar. Aquí encontrarás una gran oferta de restaurantes y chiringuitos donde podrás degustar deliciosos platos de mariscos y paella valenciana mientras disfrutas de las vistas al mar."
+            },
+            {
+                "title": "Playa de la Patacona",
+                "descripcion": "Nos desplazamos hacia el norte de Valencia para visitar la Playa de la Patacona. Esta playa es conocida por su ambiente más tranquilo y familiar. Aquí podrás relajarte en la arena, dar un paseo por el paseo marítimo o disfrutar de una comida en uno de los restaurantes junto a la playa. Además, la Playa de la Patacona es popular entre los amantes del deporte, ya que cuenta con una amplia zona para practicar deportes acuáticos y vóley playa."
+            }
+        ],
+        "imagen": "/images/actividades/5.png"
+    },
+    {
+        "id": 6,
+        "title": "VISITA GUIADA BARES DE IBIZA LOW COST",
+        "descripcion": "Acompáñame en esta visita guiada por algunos de los bares de Ibiza donde podrás disfrutar de una experiencia de ocio nocturno a precios más accesibles. Ibiza es conocida por su animada vida nocturna, y estos bares te ofrecen la oportunidad de disfrutar de bebidas y ambiente sin gastar demasiado dinero. ¡Vamos allá!",
+        "puntos": [
+            {
+                "title": "Bar Street",
+                "descipcion": "Comenzamos nuestra visita en Bar Street, ubicada en el corazón de San Antonio. Esta calle es conocida por sus numerosos bares y pubs que ofrecen bebidas a precios asequibles. Aquí encontrarás una gran variedad de opciones para disfrutar de música, cócteles y ambiente festivo sin gastar demasiado."
+            },
+            {
+                "title": "The Highlander",
+                "descripcion": "Continuamos nuestra visita en The Highlander, un bar escocés situado en San Antonio. Este lugar es famoso por su ambiente animado y sus precios asequibles. Aquí podrás disfrutar de una amplia selección de cervezas, cócteles y shots a precios low cost mientras te diviertes con la música y el ambiente internacional."
+            },
+            {
+                "title": "Ibiza Rocks Ba",
+                "descripcion": "Nuestra siguiente parada nos lleva a Ibiza Rocks Bar, ubicado en San Antonio. Este bar es conocido por sus eventos y fiestas temáticas, donde podrás disfrutar de música en vivo y DJs a precios asequibles. Es un lugar perfecto para mezclarte con locales y turistas mientras disfrutas de una experiencia vibrante y económica."
+            }
+        ],
+        "imagen": "/images/actividades/6.png"
     }
+
 ]

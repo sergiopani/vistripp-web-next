@@ -2,8 +2,6 @@
 import Image from 'next/image';
 import style from '../styles/actividadesHome.module.scss';
 import Link from 'next/link';
-import { getAllActividades } from '@/app/lib/cms';
-
 
 const actividades = [
     {
@@ -42,7 +40,7 @@ const actividades = [
         id: 6,
         nombre: 'BARES LOW COST',
         descripcion: 'Ibiza es conocida por su animada vida nocturna.',
-        imagen: '/images/actividades/1.png'
+        imagen: '/images/actividades/6.png'
 
     },
 ];
