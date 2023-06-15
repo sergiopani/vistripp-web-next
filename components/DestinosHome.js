@@ -23,16 +23,16 @@ const destinos = [
     },
     {
         id: 4,
-        nombre: 'Menorca',
+        nombre: 'Ibiza',
         descripcion: '',
         imagen: '/images/destinos/4.jpeg'
 
     },
     {
         id: 5,
-        nombre: 'Bilbao',
+        nombre: 'Valencia',
         descripcion: '',
-        imagen: '/images/destinos/5.jpeg'
+        imagen: '/images/destinos/7.jpeg'
     },
     {
         id: 6,
